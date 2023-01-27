@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51C644752983F52D00222BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C644742983F52D00222BDE /* AppDelegate.swift */; };
+		51C644772983F52D00222BDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C644762983F52D00222BDE /* SceneDelegate.swift */; };
+		51C644792983F52D00222BDE /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C644782983F52D00222BDE /* MainScreen.swift */; };
+		51C6447C2983F52D00222BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C6447A2983F52D00222BDE /* Main.storyboard */; };
+		51C6447E2983F52E00222BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C6447D2983F52E00222BDE /* Assets.xcassets */; };
+		51C644812983F52E00222BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C6447F2983F52E00222BDE /* LaunchScreen.storyboard */; };
+		51C6448C2983F52E00222BDE /* PopixelsMergeVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6448B2983F52E00222BDE /* PopixelsMergeVideosTests.swift */; };
+		51C644962983F52E00222BDE /* PopixelsMergeVideosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C644952983F52E00222BDE /* PopixelsMergeVideosUITests.swift */; };
+		51C644982983F52E00222BDE /* PopixelsMergeVideosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C644972983F52E00222BDE /* PopixelsMergeVideosUITestsLaunchTests.swift */; };
+		51C644A52983FA6300222BDE /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C644A42983FA6300222BDE /* MainScreenViewModel.swift */; };
+		51C644A82983FAC200222BDE /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C644A72983FAC200222BDE /* VideoPlayerView.swift */; };
+		51C644AA2983FACE00222BDE /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C644A92983FACE00222BDE /* VideoPlayerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51C644882983F52E00222BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51C644692983F52D00222BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C644702983F52D00222BDE;
+			remoteInfo = PopixelsMergeVideos;
+		};
+		51C644922983F52E00222BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51C644692983F52D00222BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C644702983F52D00222BDE;
+			remoteInfo = PopixelsMergeVideos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51C644712983F52D00222BDE /* PopixelsMergeVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopixelsMergeVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C644742983F52D00222BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51C644762983F52D00222BDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51C644782983F52D00222BDE /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		51C6447B2983F52D00222BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51C6447D2983F52E00222BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51C644802983F52E00222BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51C644822983F52E00222BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C644872983F52E00222BDE /* PopixelsMergeVideosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopixelsMergeVideosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C6448B2983F52E00222BDE /* PopixelsMergeVideosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopixelsMergeVideosTests.swift; sourceTree = "<group>"; };
+		51C644912983F52E00222BDE /* PopixelsMergeVideosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopixelsMergeVideosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C644952983F52E00222BDE /* PopixelsMergeVideosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopixelsMergeVideosUITests.swift; sourceTree = "<group>"; };
+		51C644972983F52E00222BDE /* PopixelsMergeVideosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopixelsMergeVideosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51C644A42983FA6300222BDE /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		51C644A72983FAC200222BDE /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		51C644A92983FACE00222BDE /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51C6446E2983F52D00222BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C644842983F52E00222BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C6448E2983F52E00222BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51C644682983F52D00222BDE = {
+			isa = PBXGroup;
+			children = (
+				51C644732983F52D00222BDE /* PopixelsMergeVideos */,
+				51C6448A2983F52E00222BDE /* PopixelsMergeVideosTests */,
+				51C644942983F52E00222BDE /* PopixelsMergeVideosUITests */,
+				51C644722983F52D00222BDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51C644722983F52D00222BDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51C644712983F52D00222BDE /* PopixelsMergeVideos.app */,
+				51C644872983F52E00222BDE /* PopixelsMergeVideosTests.xctest */,
+				51C644912983F52E00222BDE /* PopixelsMergeVideosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51C644732983F52D00222BDE /* PopixelsMergeVideos */ = {
+			isa = PBXGroup;
+			children = (
+				51C644742983F52D00222BDE /* AppDelegate.swift */,
+				51C644762983F52D00222BDE /* SceneDelegate.swift */,
+				51C644782983F52D00222BDE /* MainScreen.swift */,
+				51C644A42983FA6300222BDE /* MainScreenViewModel.swift */,
+				51C6447A2983F52D00222BDE /* Main.storyboard */,
+				51C644A62983FA7400222BDE /* Views */,
+				51C6447D2983F52E00222BDE /* Assets.xcassets */,
+				51C6447F2983F52E00222BDE /* LaunchScreen.storyboard */,
+				51C644822983F52E00222BDE /* Info.plist */,
+			);
+			path = PopixelsMergeVideos;
+			sourceTree = "<group>";
+		};
+		51C6448A2983F52E00222BDE /* PopixelsMergeVideosTests */ = {
+			isa = PBXGroup;
+			children = (
+				51C6448B2983F52E00222BDE /* PopixelsMergeVideosTests.swift */,
+			);
+			path = PopixelsMergeVideosTests;
+			sourceTree = "<group>";
+		};
+		51C644942983F52E00222BDE /* PopixelsMergeVideosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51C644952983F52E00222BDE /* PopixelsMergeVideosUITests.swift */,
+				51C644972983F52E00222BDE /* PopixelsMergeVideosUITestsLaunchTests.swift */,
+			);
+			path = PopixelsMergeVideosUITests;
+			sourceTree = "<group>";
+		};
+		51C644A62983FA7400222BDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51C644A72983FAC200222BDE /* VideoPlayerView.swift */,
+				51C644A92983FACE00222BDE /* VideoPlayerViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51C644702983F52D00222BDE /* PopixelsMergeVideos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C6449B2983F52E00222BDE /* Build configuration list for PBXNativeTarget "PopixelsMergeVideos" */;
+			buildPhases = (
+				51C6446D2983F52D00222BDE /* Sources */,
+				51C6446E2983F52D00222BDE /* Frameworks */,
+				51C6446F2983F52D00222BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopixelsMergeVideos;
+			productName = PopixelsMergeVideos;
+			productReference = 51C644712983F52D00222BDE /* PopixelsMergeVideos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51C644862983F52E00222BDE /* PopixelsMergeVideosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C6449E2983F52E00222BDE /* Build configuration list for PBXNativeTarget "PopixelsMergeVideosTests" */;
+			buildPhases = (
+				51C644832983F52E00222BDE /* Sources */,
+				51C644842983F52E00222BDE /* Frameworks */,
+				51C644852983F52E00222BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51C644892983F52E00222BDE /* PBXTargetDependency */,
+			);
+			name = PopixelsMergeVideosTests;
+			productName = PopixelsMergeVideosTests;
+			productReference = 51C644872983F52E00222BDE /* PopixelsMergeVideosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51C644902983F52E00222BDE /* PopixelsMergeVideosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C644A12983F52E00222BDE /* Build configuration list for PBXNativeTarget "PopixelsMergeVideosUITests" */;
+			buildPhases = (
+				51C6448D2983F52E00222BDE /* Sources */,
+				51C6448E2983F52E00222BDE /* Frameworks */,
+				51C6448F2983F52E00222BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51C644932983F52E00222BDE /* PBXTargetDependency */,
+			);
+			name = PopixelsMergeVideosUITests;
+			productName = PopixelsMergeVideosUITests;
+			productReference = 51C644912983F52E00222BDE /* PopixelsMergeVideosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51C644692983F52D00222BDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					51C644702983F52D00222BDE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					51C644862983F52E00222BDE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 51C644702983F52D00222BDE;
+					};
+					51C644902983F52E00222BDE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 51C644702983F52D00222BDE;
+					};
+				};
+			};
+			buildConfigurationList = 51C6446C2983F52D00222BDE /* Build configuration list for PBXProject "PopixelsMergeVideos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51C644682983F52D00222BDE;
+			productRefGroup = 51C644722983F52D00222BDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51C644702983F52D00222BDE /* PopixelsMergeVideos */,
+				51C644862983F52E00222BDE /* PopixelsMergeVideosTests */,
+				51C644902983F52E00222BDE /* PopixelsMergeVideosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51C6446F2983F52D00222BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C644812983F52E00222BDE /* LaunchScreen.storyboard in Resources */,
+				51C6447E2983F52E00222BDE /* Assets.xcassets in Resources */,
+				51C6447C2983F52D00222BDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C644852983F52E00222BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C6448F2983F52E00222BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51C6446D2983F52D00222BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C644792983F52D00222BDE /* MainScreen.swift in Sources */,
+				51C644A52983FA6300222BDE /* MainScreenViewModel.swift in Sources */,
+				51C644752983F52D00222BDE /* AppDelegate.swift in Sources */,
+				51C644AA2983FACE00222BDE /* VideoPlayerViewModel.swift in Sources */,
+				51C644772983F52D00222BDE /* SceneDelegate.swift in Sources */,
+				51C644A82983FAC200222BDE /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C644832983F52E00222BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C6448C2983F52E00222BDE /* PopixelsMergeVideosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C6448D2983F52E00222BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C644962983F52E00222BDE /* PopixelsMergeVideosUITests.swift in Sources */,
+				51C644982983F52E00222BDE /* PopixelsMergeVideosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51C644892983F52E00222BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51C644702983F52D00222BDE /* PopixelsMergeVideos */;
+			targetProxy = 51C644882983F52E00222BDE /* PBXContainerItemProxy */;
+		};
+		51C644932983F52E00222BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51C644702983F52D00222BDE /* PopixelsMergeVideos */;
+			targetProxy = 51C644922983F52E00222BDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51C6447A2983F52D00222BDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51C6447B2983F52D00222BDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51C6447F2983F52E00222BDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51C644802983F52E00222BDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51C644992983F52E00222BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51C6449A2983F52E00222BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51C6449C2983F52E00222BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687HWHKU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PopixelsMergeVideos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orenco82.PopixelsMergeVideos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51C6449D2983F52E00222BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687HWHKU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PopixelsMergeVideos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orenco82.PopixelsMergeVideos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51C6449F2983F52E00222BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687HWHKU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orenco82.PopixelsMergeVideosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopixelsMergeVideos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PopixelsMergeVideos";
+			};
+			name = Debug;
+		};
+		51C644A02983F52E00222BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687HWHKU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orenco82.PopixelsMergeVideosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopixelsMergeVideos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PopixelsMergeVideos";
+			};
+			name = Release;
+		};
+		51C644A22983F52E00222BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687HWHKU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orenco82.PopixelsMergeVideosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopixelsMergeVideos;
+			};
+			name = Debug;
+		};
+		51C644A32983F52E00222BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 687HWHKU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orenco82.PopixelsMergeVideosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopixelsMergeVideos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51C6446C2983F52D00222BDE /* Build configuration list for PBXProject "PopixelsMergeVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C644992983F52E00222BDE /* Debug */,
+				51C6449A2983F52E00222BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C6449B2983F52E00222BDE /* Build configuration list for PBXNativeTarget "PopixelsMergeVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C6449C2983F52E00222BDE /* Debug */,
+				51C6449D2983F52E00222BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C6449E2983F52E00222BDE /* Build configuration list for PBXNativeTarget "PopixelsMergeVideosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C6449F2983F52E00222BDE /* Debug */,
+				51C644A02983F52E00222BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C644A12983F52E00222BDE /* Build configuration list for PBXNativeTarget "PopixelsMergeVideosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C644A22983F52E00222BDE /* Debug */,
+				51C644A32983F52E00222BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51C644692983F52D00222BDE /* Project object */;
+}

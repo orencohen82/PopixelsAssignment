@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Screen-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainScreen" customModule="PopixelsMergeVideos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d8E-Mh-9WM" customClass="VideoPlayerView" customModule="PopixelsMergeVideos" customModuleProvider="target">
+                                <rect key="frame" x="20" y="249.66666666666663" width="353" height="353"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d8E-Mh-9WM" secondAttribute="height" multiplier="1:1" id="Zrk-JI-Ytr"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jY-Qq-AgB">
+                                <rect key="frame" x="103" y="617.66666666666663" width="187" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Save combined video"/>
+                                <connections>
+                                    <action selector="saveVideoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uAL-zP-fFN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo1-hb-rq4">
+                                <rect key="frame" x="128" y="199.66666666666666" width="137" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Choose videos"/>
+                                <connections>
+                                    <action selector="chooseVideosTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G5B-Wc-hHf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="d8E-Mh-9WM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fgx-Dx-hZk"/>
+                            <constraint firstItem="1jY-Qq-AgB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G71-Kw-wBq"/>
+                            <constraint firstItem="d8E-Mh-9WM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NrT-at-sPh"/>
+                            <constraint firstItem="yo1-hb-rq4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T1x-ms-lcP"/>
+                            <constraint firstItem="1jY-Qq-AgB" firstAttribute="top" secondItem="d8E-Mh-9WM" secondAttribute="bottom" constant="15" id="VKG-B1-tS9"/>
+                            <constraint firstItem="d8E-Mh-9WM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gFK-fQ-Gxn"/>
+                            <constraint firstItem="d8E-Mh-9WM" firstAttribute="top" secondItem="yo1-hb-rq4" secondAttribute="bottom" constant="15" id="vqF-37-vzj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chooseVideosButton" destination="yo1-hb-rq4" id="Zbi-rg-YGP"/>
+                        <outlet property="saveVideoButton" destination="1jY-Qq-AgB" id="Urt-zC-0JP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
