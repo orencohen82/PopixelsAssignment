@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -32,7 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo1-hb-rq4">
-                                <rect key="frame" x="128" y="199.66666666666666" width="137" height="35"/>
+                                <rect key="frame" x="128" y="199.66666666666666" width="137" height="34.999999999999972"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Choose videos"/>
                                 <connections>
@@ -55,6 +56,7 @@
                     <connections>
                         <outlet property="chooseVideosButton" destination="yo1-hb-rq4" id="Zbi-rg-YGP"/>
                         <outlet property="saveVideoButton" destination="1jY-Qq-AgB" id="Urt-zC-0JP"/>
+                        <outlet property="videoPlayerView" destination="d8E-Mh-9WM" id="1cV-7Z-gRK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
